@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="map w-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.857084055591!2d105.78620395051263!3d21.046796881972472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb158a2305d%3A0x5c357d21c785ea3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkGnhu4duIEzhu7Fj!5e0!3m2!1svi!2s!4v1744732587030!5m2!1svi!2s"  style="border:0" allowfullscreen="" width="100%" height="450" frameborder="0"></iframe>
+    </div>
+</section>
+<section style="margin-top: 3rem;">
+    <div class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact-box text-center">
+                        <h3>Địa Chỉ</h3>
+                        <address>235 Hoàng Quốc Việt, Cổ Nhuế, Bắc Từ Liêm,<br>Hà Nội, Việt Nam</address>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact-box text-center">
+                        <h3>Thông Tin Liên Lạc</h3>
+                        <div>
+                            <a href="#">info@midas.com</a>
+                        </div>
+                        <div>
+                            <a href="tel:+1 987-876-6543">+1 987-876-6543</a>, <a href="tel:+1 987-976-1234">+1 987-976-1234</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact-box text-center">
+                        <h3>Mạng Xã Hội</h3>
+                        <ul class="list-unstyled d-flex align-items-center flex-wrap gap-3 justify-content-center">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top my-4" style="opacity: .7;"></div>
+        </div>
+    </div>
+</section>
+<section style="margin-top:3rem;margin-bottom: 3.5rem;">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 col-sm-12">
+                <h2 class="title mb-3">Gửi Tin Nhắn Cho Chúng Tôi</h2>
+                <p class="lg text-primary">Chào mừng đến với cửa hàng của chúng tôi; <br>Hãy cho chúng tôi biết ý kiến của bạn.</p>
+                
+                <form class="form v2" method="post" accept-charset="utf-8">
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <input type="text" class="form-control" value="" name="user_name" placeholder="Họ và tên" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" name="user_message" required placeholder="Tin Nhắn"></textarea>
+                    <button type="submit" class="btn btn-outline minwidth">
+                        <span>Xác Nhận</span>
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,29 @@
+﻿@model Product
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Update</h2>
+</div>
+<div class=" = row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post">
+            <input type="hidden" name="products_id" value="@Model.products_id" />
+            <input type="text" placeholder="Nhập Tên" name="products_name" class="form-control my-3" value="@Model.products_name" />
+            <input type="text" placeholder="Nhập Giá" name="products_price" class="form-control my-3" value="@Model.products_price" />
+            <input type="text" placeholder="Nhập Mô Tả" name="products_description" class="form-control my-3" value="@Model.products_description" />
+            @Html.Partial("CategoryDropdown", ViewData["category"])
+            <input type="hidden" name="products_image" value="@Model.products_image" class="form-control my-3" />
+            <input type="submit" value="Cập Nhật Thông Tin" class="form-control my-3 btn btn-primary" />
+        </form>
+        <form method="post" asp-action="ChangeProductImage" enctype="multipart/form-data">
+            <input type="hidden" name="products_id" value="@Model.products_id" />
+            <input type="hidden" placeholder="Nhập Tên" name="products_name" class="form-control my-3" value="@Model.products_name" />
+            <input type="hidden" placeholder="Nhập Giá" name="products_price" class="form-control my-3" value="@Model.products_price" />
+            <input type="hidden" placeholder="Nhập Mô Tả" name="products_description" class="form-control my-3" value="@Model.products_description" />
+            <input type="hidden" name="cat_id" value="@Model.cat_id" class="form-control my-3" />
+            <input type="file" name="products_image"/>
+            <img src="@("~/product_image/"+Model.products_image)" asp-append-version="true" style="width:250px;height:250px" class="my-3" /><br />
+            <input type="submit" value="Cập Nhật Thông Tin" class="form-control my-3 btn btn-primary" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>

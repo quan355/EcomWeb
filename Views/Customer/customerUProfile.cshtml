@@ -1,0 +1,153 @@
+﻿
+@{
+    ViewData["Title"] = "customerUProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Customer>
+<style>
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    .avatar-container {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .avatar {
+        height: 128px;
+        width: 128px;
+        border-radius: 50%;
+        border: 4px solid #ffffff;
+        object-fit: cover;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .profile-card {
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-top: 6px solid ;
+        
+    }
+    .profile-info {
+        text-align: center;
+        padding: 24px;
+    }
+
+        .profile-info h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1f2937;
+            margin: 0;
+        }
+    .section {
+        padding: 24px;
+        border-top: 8px;
+    }
+
+        .section h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 16px;
+        }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+        .grid p {
+            color: #4b5563;
+            font-size: 14px;
+            margin: 0;
+            font-weight: 500;
+        }
+
+            .grid p input {
+                font-weight: 500;
+                padding: 24px;
+            }
+    .actions {
+        text-align: center;
+        padding: 24px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+        .actions a {
+            display: inline-block;
+            padding: 8px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        .actions .edit-profile {
+            background-color: #16a34a;
+            color: #ffffff;
+            border-radius: 8px;
+        }
+
+            .actions .edit-profile:hover {
+                background-color: #15803d;
+            }
+</style>
+<body>
+    <div class="container">
+                <div class="section">
+                    <div class="grid">
+                <div class="profile-card">
+                    <section>
+                        <form method="post" enctype="multipart/form-data" asp-action="updateCustomerProfile">
+                            <div class="avatar-container">
+                                <img src="@Url.Content("~/customer_image/" + Model[0].customer_image)" asp-append-version="true" class="avatar"/> 
+                            </div>
+                            <input type="file" name="customer_image" class="center"/>
+                            <div class="profile-info">
+                                <h1>Account Details</h1>
+                            </div>
+                            
+                            <p>
+                                <input type="hidden" name="customer_id" value="@Model[0].customer_id" />
+                                <input type="text" placeholder="Nhập tên" name="customer_name" value="@Model[0].customer_name" />
+                            </p>
+                            <p>
+                                <input type="text" placeholder="Địa chỉ" name="customer_address" value="@Model[0].customer_address" />
+                                <input type="text" placeholder="Nhập MK" name="customer_password" value="@Model[0].customer_password" /><br />
+                            </p>
+                            <p>
+                                <input type="text" placeholder="Nhập số điện thoại" name="customer_phone" value="@Model[0].customer_phone" />
+                                <input type="text" placeholder="Quốc gia" name="customer_country" value="@Model[0].customer_country" /><br />
+                            </p>
+                            <p>
+                                <input type="email" placeholder="Nhập Email" name="customer_email" value="@Model[0].customer_email" />
+                                <input type="text" placeholder="Thành phố" name="customer_city" value="@Model[0].customer_city" /><br />
+                            </p>
+                            <div class="actions">
+                                <input type="submit" class="edit-profile" value="Edit Profile" />
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                        
+                    </div>
+                </div>
+    </div>
+</body>
+
+

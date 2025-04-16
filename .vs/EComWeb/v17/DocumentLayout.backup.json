@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kidet\\source\\repos\\EComWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T03:37:14.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T03:34:55.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T03:23:17.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwE0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:45:47.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
