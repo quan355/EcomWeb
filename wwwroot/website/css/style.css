@@ -1,3 +1,70 @@
+﻿@media screen and (min-width: 992px) {
+    .cart .col-lg-3 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 25%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .cart .col-lg-9 {
+        -ms-flex: 0 70%;
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .summary {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .product-col .product {
+        padding-right: 0
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cart-bottom {
+        flex-direction: column;
+        margin-bottom: 4rem
+    }
+
+        .cart-bottom .btn {
+            margin-left: 0 !important;
+            margin-top: 1rem
+        }
+}
+
+@media screen and (min-width: 992px) {
+    .cart .col-lg-3 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%
+    }
+
+    .cart .col-lg-9 {
+        -ms-flex: 0 70%;
+        flex: 0 0 70%;
+        max-width: 70%
+    }
+}
+.theme-btn {
+    background-color: rgb(234, 163, 136);
+    color: #fff;
+    padding: 8px 0;
+    margin-left: 1.875rem;
+    text-align:center;
+    min-width: 14rem;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s linear, transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.theme-btn:hover {
+    background-color: #1cc0a0; /* Màu nền khi hover */
+    transform: scale(1.05); /* Tăng kích thước khi hover */
+}
 body {
     margin: 0;
     font-family: Poppins;
@@ -807,10 +874,8 @@ footer ul>li>a:hover{color:#eea287;}
   font-weight: 300;
   font-style: normal;
 }
-address {
-    margin-bottom: 1rem;
-    font-size: 14px;
-    
+address{margin-bottom: 1rem;
+  font-size: 14px;
 }
 .contact-box a {
   color: inherit;
@@ -1221,8 +1286,7 @@ span.rate + a{margin-left:0.9375rem;
 }
 .product-desc-info-box {margin-top:40px;
 }
-.bg-color5 .product-desc-info-box > span{background-color:white;
-}
+.bg-color5 .product-desc-info-box > span{background-color:white;}
 .product-desc-info-box > span{display:inline-block;font-size:1.5rem;
                               height:3.75rem;width:3.75rem;line-height:4.1rem;
                               background-color:#f6f7fb;color:var(--color1);text-align:center;

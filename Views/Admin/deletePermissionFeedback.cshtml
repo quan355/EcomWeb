@@ -6,9 +6,9 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <ul class="list-group my-3">
-            <li class="list-group-item">Feedback ID : @Model.feedback_id</li>
-            <li class="list-group-item">Feedback Name : @Model.user_name</li>
-            <li class="list-group-item">Message : @Model.user_message</li>
+            <li class="list-group-item"> ID : @Model.feedback_id</li>
+            <li class="list-group-item">Họ và Tên: @Model.user_name</li>
+            <li class="list-group-item">Tin Nhắn : @Model.user_message</li>
         </ul>
         <a href="@Url.Action("deleteFeedback","Admin",new{id=Model.feedback_id})" class="btn btn-danger">XÓA</a>
         <a href="@Url.Action("fetchFeedback","Admin")" class="btn btn-info">Quay Lại</a>

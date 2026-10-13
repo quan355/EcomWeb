@@ -1,0 +1,38 @@
+﻿@model List<Cart>
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Giỏ Hàng</h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-striped text-center">
+            <thead>
+                <tr>
+
+                    <th>Tên Sản Phẩm</th>
+                    <th>Tên Khách Hàng</th>
+                    <th>Kích Cỡ</th>
+                    <th>Số Lượng Sản Phẩm</th>
+                    <th>Trạng Thái</th>
+                    <th>Tương Tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cart in Model)
+                {
+                    <tr>
+
+                        <td>@cart.products.products_name</td>
+                        <td>@cart.customers.customer_name</td>
+                        <td>@cart.product_size</td>
+                        <td>@cart.product_quantity</td>
+                        <td>@cart.cart_status</td>
+                        <td>
+                            <a href="@Url.Action("updateCart","Admin",new{id=cart.cart_id})" class="btn btn-info">Chỉnh Sửa</a>
+                            <a href="@Url.Action("deletePermissionCart","Admin",new{id=@cart.cart_id})" class="btn btn-danger">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

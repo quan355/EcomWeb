@@ -1,17 +1,17 @@
 ﻿@model Product
 <div class="container-fluid px-4">
-    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Product Details</h2>
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Thông Tin Sản Phẩm</h2>
 </div>
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-        <img src="@("~/product_image/"+Model.products_image)" asp-append-version="true" width="250px" height="250px" class="my-3" />
+        <img src="@Model.products_image" width="250px" height="250px" class="my-3" />
         <ul class="list-group">
-            <li class="list-group-item">Product ID : @Model.products_id</li>
-            <li class="list-group-item">Product Name : @Model.products_name</li>
-            <li class="list-group-item">Product Price : @Model.products_price</li>
-            <li class="list-group-item">Product Description : @Model.products_description</li>
-            <li class="list-group-item">Category ID : @Model.Category.category_name</li>
+            <li class="list-group-item">ID : @Model.products_id</li>
+            <li class="list-group-item">Tên Sản Phẩm : @Model.products_name</li>
+            <li class="list-group-item">Giá : @Model.products_price</li>
+            <li class="list-group-item">Mô Tả : @Model.products_description</li>
+            <li class="list-group-item"> Phân Loại : @Model.Category.category_name</li>
         </ul>
     </div>
     <div class="col-md-2"></div>

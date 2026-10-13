@@ -3,7 +3,10 @@
     ViewData["Title"] = "customerLogin";
     Layout = null;
 }
+<!DOCTYPE html>
+<html lang="vi">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
@@ -96,20 +99,20 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>LOGIN FORM</h2>
+        <h2>Đăng Nhập</h2>
         <form method="post">
             <div class="form-group">
-                <label for="username">Email address *</label>
-                <input type="email" id="email" name="customerEmail" required>
+                <label for="username">Địa chỉ Email</label>
+                <input type="email" id="email" placeholder="Nhập địa chỉ Email" name="customerEmail" required>
             </div>
             <div class="form-group">
-                <label for="password">Password *</label>
-                <input type="password" id="password" name="customerPassword" required>
+                <label for="password">Mật Khẩu</label>
+                <input type="password" id="password" placeholder="Nhập mật khẩu" name="customerPassword" required>
             </div>
-            <p class="forgot-password-link"><a href="@Url.Action("forgotPassword","customer")">Forgot Password?</a></p>
-            <button type="submit" class="login-btn">LOGIN</button>
-            <p class="signup-link">Don't have an account? <a href="@Url.Action("customerRegistration","customer")">SIGN UP</a></p>
-            <p>@ViewBag.message</p>
+            <p class="forgot-password-link"><a href="@Url.Action("ForgotPassword","customer")">Quên Mật Khẩu?</a></p>
+            <button type="submit" id="login-btn-cus" class="login-btn">Đăng Nhập</button>
+            <p class="signup-link">Bạn không có tài khoản? <a href="@Url.Action("customerRegistration","customer")">Đăng Ký</a></p>
+            <p id="notification">@ViewBag.message</p>
         </form>
     </div>
 </body>

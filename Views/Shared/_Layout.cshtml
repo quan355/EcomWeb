@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Molla</title>
+    <title>Actio</title>
     <link rel="stylesheet" type="text/css" href="~/website/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/website/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -16,37 +16,18 @@
         <div class="w-100 bg-1 header-pd">
             <div class="container">
                 <div class="top-bar d-flex flex-wrap align-items-center justify-content-between">
-                    <div class="bar-left">
-                        <ul class="list-unstyled">
-                            <li><a href="#"><i class="fa-solid fa-phone"></i> Call: +98 765 432</a></li>
-                        </ul>
+                    <div class="bar-left">  
                     </div>
                     <div class="bar-right">
                         <ul class="list-unstyled d-flex flex-wrap align-items-center gap-3">
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li>
                                 @if (string.IsNullOrEmpty(ViewBag.checkSession))
                                 {
-                                <li><a href="@Url.Action("customerLogin","customer")"><i class="fa-regular fa-user"></i> Login</a></li>
+                                <li><a href="@Url.Action("customerLogin","customer")"><i class="fa-regular fa-user"></i> Đăng Nhập</a></li>
                                 }
                                 else
                                 {
-                                <li><a href="@Url.Action("customerLogout","customer")"><i class="fa-regular fa-user"></i> Logout</a></li>
+                                <li><a href="@Url.Action("customerLogout","customer")"><i class="fa-regular fa-user"></i> Đăng Xuất</a></li>
                                 }
-                            </li>   
-                            <li>
-                                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                    <option selected>VND</option>
-                                    <option value="1">PKR</option>
-                                    <option value="2">EUR</option>
-                                    <option value="3">RUB</option>
-                                </select>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -57,28 +38,14 @@
             <div class="container">
                 <div class="main-header row w-100 d-flex align-items-center justify-content-between">
                     <div class="menu-left col-lg-4 col-md-4 d-flex flex-nowrap align-items-center">
-
-                        <div class="field-box position-relative">
-                            <input type="text" name="q" value="" class="search" placeholder="Search in..." required="">
-                            <div class="search-field position-absolute">
-                                <a href="#">
-                                    <img src="~/website/images/resources/search-outline.svg" alt="" width="28px" style="-webkit-transform: rotateY(180deg);
-                                   -moz-transform: rotateY(180deg);
-                                    -ms-transform: rotateY(180deg);
-                                     -o-transform: rotateY(180deg);
-                                        transform: rotateY(180deg);">
-                                </a>
-
-                            </div>
-                        </div>
                     </div>
                     <div class="menu-mid col-lg-4 col-md-4 text-lg-center">
-                        <a href="Index.cshtml"><img src="~/website/images/logo.webp" alt=""></a>
+                        <a href="Index.cshtml"><img src="~/website/images/logo.png" alt=""></a>
                     </div>
                     <div class="menu-right col-md-4 col-lg-4">
                         <ul class="shp-lst list-unstyled d-flex align-items-center justify-content-end">
-                            <li><a style="font-weight: 300;" href="#"><img src="~/website/images/resources/icon-1.png" alt=""> My wishlist</a></li>
-                            <li><a style="font-weight: 500;" href="#"><img src="~/website/images/resources/icon-2.png" alt="">0.0VND</a></li>
+                            <li><a style="font-weight: 500;" href="@Url.Action("OrderHistory","customer")"><img src="~/website/images/resources/icon-5.png" alt=""></a></li>
+                            <li><a style="font-weight: 500;" href="@Url.Action("fetchCart","customer")"><img src="~/website/images/resources/icon-2.png" alt=""></a></li>
                             <li><a style="font-weight: 300;" href="@Url.Action("customerUProfile","customer")"><img src="~/website/images/resources/i-con3.png" alt=""></a></li>
                         </ul>
                     </div>
@@ -90,128 +57,15 @@
                 <div class="border-top" style="opacity: 0.5;"></div>
                 <nav class="main-navigation">
                     <ul class="main-menu list-unstyled d-flex">
-                        <li class="active">
-                            <a href="Index.cshtml">Home</a>
-
-                            <div class="megamenu-wrap">
-
-                                <div class="container">
-                                    <div class="megamenu-inner position-relative w-100">
-
-                                        <div class="row mrg30">
-
-                                            <div class="col-md-7 col-sm-12 col-lg-7">
-
-                                                <div class="megamenu-box-wrap position-relative w-100">
-
-                                                    <div class="row mrg30 active">
-
-
-                                                        <div class="col">
-
-                                                            <div class="megamenu-item w-100">
-                                                                <h4>DANH MỤC</h4>
-                                                                <ul class="list-unstyled mb-0 w-100">
-                                                                    @Html.Partial("fetchCategoryList",ViewData["category"])
-                                                                </ul>
-                                                                <!--megamenu-item-->
-                                                            </div>
-
-                                                            <!--col-inner-->
-                                                        </div>
-
-                                                        <div class="col">
-
-                                                            <div class="megamenu-item w-100">
-                                                                <h4>Product Style</h4>
-                                                                <ul class="list-unstyled mb-0 w-100">
-                                                                    <li><a href="product-detail.html">Product Style 1</a></li>
-                                                                    <li><a href="product-detail2.html">Product Style 2</a></li>
-                                                                    <li><a href="product-detail3.html">Product Style 3</a></li>
-                                                                    <li>
-                                                                        <a href="product-detail4.html">
-                                                                            Product Style 4
-                                                                        </a>
-                                                                    </li>
-                                                                    <li><a href="product-detail5.html">Product Style 5</a></li>
-                                                                </ul>
-                                                                <!--megamenu-item-->
-                                                            </div>
-
-                                                            <!--col-inner-->
-                                                        </div>
-
-                                                        <div class="col">
-
-                                                            <div class="megamenu-item w-100 active">
-                                                                <h4>Header Style</h4>
-                                                                <ul class="list-unstyled mb-0 w-100">
-                                                                    <li class="active"><a href="Index.cshtml">Header Style 1</a></li>
-                                                                    <li>
-                                                                        <a href="index2.html">
-                                                                            Header Style 2
-                                                                            <span class="badge bg-success rounded-pill">New</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li><a href="index3.html">Header Style 3</a></li>
-                                                                </ul>
-                                                                <!--megamenu-item-->
-                                                            </div>
-
-                                                            <!--inner-col-->
-                                                        </div>
-
-
-                                                        <!--row-->
-                                                    </div>
-                                                    <!--megamenu-box-->
-                                                </div>
-                                                <!--col-->
-                                            </div>
-                                            <div class="col-md-5 col-lg-5 col-sm-12">
-                                                <div class="image">
-                                                    <img src="~/website/images/resources/shoes.jpg" style="object-fit: cover;max-height: 170px;width: 100%;object-position: top;" alt="">
-                                                </div>
-                                            </div>
-
-                                            <!--row-->
-                                        </div>
-                                        <!--inner-->
-                                    </div>
-                                    <!--container-->
-                                </div>
-                                <!--megamenu-->
-                            </div>
+                        <li >
+                            <a href="@Url.Action("index","customer")" ">Trang Chủ</a>
                         </li>
                         <li>
-                            <a href="Index.cshtml">Shop <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="children mb-0 w-100 list-unstyled">
-                                <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                                <li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
-                            </ul>
+                            <a href="@Url.Action("allfetchProduct","customer")">Sản Phẩm </a>
                         </li>
                         <li>
-                            <a href="@Url.Action("Index","customer")">Product <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="children mb-0 w-100 list-unstyled">
-                                <li><a href="product-detail.html">Product-Detail</a></li>
-
-                            </ul>
+                               <a href="@Url.Action("feedback","customer")">Liên Hệ</a> 
                         </li>
-                        <li>
-                            <a>Pages <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="children mb-0 w-100 list-unstyled">
-                                <li><a href="@Url.Action("feedback","customer")">Contact Us</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Index.cshtml">Blog <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="children mb-0 w-100 list-unstyled">
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="Index.cshtml">Buy Now</a></li>
                     </ul>
                 </nav>
             </div>
@@ -301,20 +155,16 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="widget widget-about">
                             <a href="#" style="max-width: 11.0rem;display: block;">
-                                <img class="footer-logo" src="~/website/images/logo-2.webp" alt="">
+                                <img class="footer-logo" src="~/website/images/logo.png" alt="">
                             </a>
-                            <p class="ft-info">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                            <p class="ft-info">Chúng tôi cam kết mang đến cho bạn những sản phẩm thời trang chất lượng nhất, phù hợp với phong cách và nhu cầu của bạn. Khám phá bộ sưu tập của chúng tôi ngay hôm nay!.</p>
                             <div class="widget-info">
                                 <div class="row">
                                     <div class="col-sm-6 col-md-4">
-                                        <span class="widget-about-title">Got Question? Call us 24/7</span>
-                                        <a class="cnt-number" href="tel:+98765432">+98 765 432</a>
+                                        <span class="widget-about-title"></span>
                                     </div>
                                     <div class="col-sm-6 col-md-8">
-                                        <span class="widget-about-title">Payment Method</span>
-                                        <a class="payment_image" href="#">
-                                            <img src="~/website/images/resources/pay.webp" width="272" height="20">
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -322,68 +172,49 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <div class="widget">
-                            <h4 class="widget-title">Useful Links</h4>
+                            <h4 class="widget-title"></h4>
                             <ul class="widget-list list-unstyled">
                                 <li>
-                                    <a href="about.html">About Midas</a>
+                                    <a href=""></a>
                                 </li>
                                 <li>
-                                    <a href="#">How to shop on Molla</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="@Url.Action("feedback","customer")">Contact us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Log in</a>
+                                    <a href="#"></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <div class="widget">
-                            <h4 class="widget-title">Customer Service</h4>
+                            <h4 class="widget-title"></h4>
                             <ul class="widget-list list-unstyled">
                                 <li>
-                                    <a href="#">Payment Methods</a>
+                                    <a href=""></a>
                                 </li>
                                 <li>
-                                    <a href="#">Money-back</a>
-                                </li>
-                                <li>
-                                    <a href="#">Returns</a>
-                                </li>
-                                <li>
-                                    <a href="#">Shipping</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms and conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
+                                    <a href="#"></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <div class="widget">
-                            <h4 class="widget-title">My Account</h4>
+                            <h4 class="widget-title">Tài Khoản</h4>
                             <ul class="widget-list list-unstyled">
                                 <li>
-                                    <a href="#">Sign In</a>
+                                    <a href="@Url.Action("customerRegistration","customer")">Đăng Ký</a>
                                 </li>
                                 <li>
-                                    <a href="#">View Cart</a>
+                                    <a href="@Url.Action("customerLogin","customer")">Đăng Nhập</a>
                                 </li>
                                 <li>
-                                    <a href="#">My Wishlist</a>
+                                    <a href="@Url.Action("customerUProfile","customer")">Trang Cá Nhân</a>
                                 </li>
                                 <li>
-                                    <a href="#">Track My Order</a>
+                                    <a href="@Url.Action("fetchCart","customer")">Giỏ Hàng</a>
+                                </li> 
+                                <li>
+                                    <a href="@Url.Action("feedback","customer")">Liên Hệ</a>
                                 </li>
-                                <li><a href="#">Help</a></li>
                             </ul>
                         </div>
                     </div>
@@ -391,10 +222,10 @@
                 <div class="footer-bottom">
                     <div class="row justify-content-between">
                         <div class="col-12 col-md-auto py-1">
-                            <p class="footer-copyright m-0">Copyright © 2019 Molla Store. All Rights Reserved.</p>
+                            <p class="footer-copyright m-0"></p>
                             <ul class="footer-menu list-unstyled">
                                 <li>
-                                    <a href="#">Terms / Privacy Policy</a>
+                                    <a href="#"></a>
                                 </li>
                             </ul>
                         </div>

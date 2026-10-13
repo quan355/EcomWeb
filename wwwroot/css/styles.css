@@ -90,7 +90,11 @@
     scroll-behavior: smooth;
   }
 }
-
+body {
+    background-image: url('~/admin_image/backg.png');
+    background-size: cover; /* Để ảnh lấp đầy toàn bộ màn hình */
+    background-position: center; /* Để căn giữa ảnh */
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

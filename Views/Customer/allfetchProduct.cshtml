@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewData["Title"] = "allfetchProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="border-top" style="opacity: .3;"></div>
+<div class="container">
+    <div class="breadcrumbs row align-items-center justify-content-between d-flex">
+        <div class="col-12">
+            <ul class="breadcrumbs_content list-unstyled d-flex justify-content-center">
+                <li class="home">
+                    <a title="Home" href="/" itemprop="url">
+                        <span>Trang Chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-angle-right"></i> Sản Phẩm</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="border-top mb-2" style="opacity: .3;"></div>
+<section class="sp-wrap org v2">
+    <div class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="filter-wrap d-flex justify-content-between align-items-center flex-wrap">
+
+                    <div class="menu-left col-lg-4 col-md-4 d-flex flex-nowrap align-items-center">
+
+                        <div class="field-box position-relative">
+                            <form asp-action="AllFetchProduct" method="get">
+                                <input type="text" name="q" value="@ViewData["q"]" class="search" placeholder="Tìm kiếm..." >
+                                <div class="search-field position-absolute">
+                                    <button type="submit" class="border-0 bg-transparent"> 
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="block-sidebar">
+                        <div class="Catagories border-top">
+                            <h3 class="mt-3">Categories</h3>
+                            <form asp-action="AllFetchProduct" method="get" class="mb-3">
+                                <!-- Giữ giá trị q nếu có -->
+                                <input type="hidden" name="q" value="@ViewData["q"]">
+                                @if (ViewData["categories"] != null)
+                                {
+                                    @Html.Partial("fetchCategoryList1", ViewData["categories"])
+                                }
+                                <button class="theme-btn bg-color5" type="submit">Tìm Kiếm</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-12 col-md-12">
+                    <div class="row">
+                        @if (ViewData["product"] != null)
+                        {
+                            @Html.Partial("fetchProduct", ViewData["product"])
+                        }
+                        else
+                        {
+                            <p>Không tồn tại sản phẩm này.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

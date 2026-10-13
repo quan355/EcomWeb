@@ -6,8 +6,8 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <ul class="list-group my-3">
-            <li class="list-group-item">Product ID : @Model.products_id</li>
-            <li class="list-group-item">Product Name : @Model.products_name</li>
+            <li class="list-group-item"> ID : @Model.products_id</li>
+            <li class="list-group-item">Tên Sản Phẩm : @Model.products_name</li>
         </ul>
         <a href="@Url.Action("deleteProduct","Admin",new{id=Model.products_id})" class="btn btn-danger">XÓA</a>
         <a href="@Url.Action("fetchProduct","Admin",new{id=Model.products_id})" class="btn btn-danger">Quay Lại</a>

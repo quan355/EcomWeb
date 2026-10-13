@@ -2,12 +2,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using EComWeb.Models;
+using EComWeb.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<myContext>(options => options.UseSqlServer(
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+builder.Services.AddDbContext<MyContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("myconnection")));
 builder.Services.AddSession(options =>
 {

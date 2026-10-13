@@ -1,0 +1,159 @@
+﻿@{
+    ViewData["Title"] = "productDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Product>
+@foreach (var prod in Model)
+{
+    <div class="border-top" style="opacity: .3;"></div>
+    <div class="container">
+        <div class="breadcrumbs row align-items-center justify-content-between d-flex">
+            <div class="col-12">
+                <ul class="breadcrumbs_content list-unstyled d-flex justify-content-center">
+                    <li class="home">
+                        <a title="Home" href="@Url.Action("index","customer")" itemprop="url">
+                            <span>Trang Chủ</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="@Url.Action("allfetchProduct","customer")" itemprop="url">
+                            <span>Sản Phẩm</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-angle-right"></i> Thông Tin Sản Phẩm</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-top mb-2" style="opacity: .3;"></div>
+
+    <section>
+        <div class="w-100 pt-4 position-relative">
+            <div class="container">
+
+                <div class="product-detail position-relative w-100">
+
+                    <div class="row">
+
+                        <div class="col-md-12 col-sm-12 col-lg-6">
+
+                            <div class="product-detail-imgs position-relative w-100">
+                                <div class="big-img">
+                                    <a href="@prod.products_image">
+                                            <img src="@prod.products_image" style="width: 100%;">
+                                    </a>
+                                </div>
+
+                                <!--product-detail-imgs-->
+                            </div>
+
+                            <!--col-->
+                        </div>
+
+
+                        <div class="col-md-12 col-sm-12 col-lg-6 ">
+
+                            <div class="product-detail-info position-relative w-100">
+                                <h2 class="mb-0">@prod.products_name</h2>
+
+                                <span class="d-block price">@prod.products_price VND</span>
+
+                                <ul class="product-stock-info list-unstyled mb-0">
+
+                                    <li>In stock</li>
+                                    <li>Miễn phí vận chuyển</li>
+
+                                </ul>
+                                
+                                <form method="post" asp-action="addtoCart">
+                                        <div class="products-size d-flex flex-wrap align-items-center w-100">
+
+                                         <span>Size:</span>
+                                         <select name="size" class="v3 form-select form-select-sm" aria-label=".form-select-sm example">
+                                             <option selected="">Kích Cỡ</option>
+                                             <option value="0">S</option>
+                                             <option value="1">M</option>
+                                             <option value="2">L</option>
+                                             <option value="3">XL</option>   
+                                             <option value="4">XXL</option>  
+                                         </select>
+
+                                    <!--products-size--></div>
+                                    <div class="product-bottom d-flex flex-wrap align-items-center w-100">
+
+                                        <div class="product-quanty">
+                                            <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected">
+                                                <input type="number" name="quantity" class="qty form-control" value="1">
+                                                <!-- input-group -->
+                                            </div>
+                                            <!-- product-quanty -->
+                                        </div>
+                                        <!-- product-bottom -->
+                                    </div>
+                                    <input type="hidden" name="product_id" value="@prod.products_id" />
+                                    <button class="theme-btn bg-color5" type="submit">Thêm vào giỏ hàng</button>
+                                </form>
+                                <!--porduct-detail-info-->
+                            </div>
+                            <!--col-->
+                        </div>
+
+                        <!--row-->
+                    </div>
+                    <!--product-detail-->
+                </div>
+
+                <!--container-->
+            </div>
+            <!--w-100-->
+        </div>
+    </section>
+
+    <section style="margin-top:70px;margin-bottom:40px;">
+        <div class="w-100 position-relative bg-color5 pt-70 pb-120">
+            <div class="container">
+
+                <div class="product-tabs position-relative w-100">
+
+
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Mô Tả</button>   
+                        </li>
+                        <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Bảng Kích Cỡ</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent" >
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                            <div class="product-detail-tab-content w-100">
+
+                                <h4 class="mb-0">Thông tin sản phẩm</h4>
+                                <p class="mb-0">@prod.products_description</p>
+                                <!--content-->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                            <div class="product-detail-tab-content w-100">
+                                <img src="@("/admin_image/size.jpg")"/>
+                                <!--content-->
+                            </div>
+                        </div>
+						<!--porduct-tabs-->
+                    </div>
+
+                    <!--container-->
+                </div>
+                <!--w-100-->
+            </div>
+        </div>
+    </section>
+}
+
+

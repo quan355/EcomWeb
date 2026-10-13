@@ -96,23 +96,24 @@
         <h2>ĐĂNG KÝ</h2>
         <form method="post">
             <div class="form-group">
-                <label for="fullname">Full Name *</label>
+                <label for="fullname">Họ và Tên</label>
                 <input type="text" id="fullname" name="customer_name" required>
             </div>
             <div class="form-group">
-                <label for="email">Email Address *</label>
+                <label for="email">Địa Chỉ Email</label>
                 <input type="email" id="email" name="customer_email" required>
             </div>
             <div class="form-group">
-                <label for="password">Password *</label>
+                <label for="password">Mật Khẩu</label>
                 <input type="password" id="password" name="customer_password" required>
             </div>
             <div class="form-group">
-                <label for="confirm-password">Confirm Password *</label>
+                <label for="confirm-password">Nhập Lại Mật Khẩu</label>
                 <input type="password" id="confirm-password" name="customer_password" required>
             </div>
-            <button type="submit" class="signup-btn">SIGN UP</button>
-            <p class="login-link">Already have an account? <a href="@Url.Action("customerLogin","customer")">LOGIN</a></p>
+            <button type="submit" id="register-btn-cus" class="signup-btn">Đăng Ký</button>
+            <p class="login-link">Đã có tài khoản? <a href="@Url.Action("customerLogin","customer")">Đăng Nhập</a></p>
+            <p id="notification">@ViewBag.message</p>
         </form>
     </div>
 </body>

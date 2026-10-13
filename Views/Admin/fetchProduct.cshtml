@@ -1,17 +1,17 @@
 ﻿@model List<Product>
 <div class="container-fluid px-4">
-    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">All Product</h2>
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Sản Phẩm</h2>
 </div>
 <div class="row">
     <div class="col-md-12">
-        <a href="@Url.Action("addProduct","Admin")" class="btn btn-primary">Thêm phân sản phẩm mới</a>
+        <a href="@Url.Action("addProduct","Admin")" class="btn btn-primary">Thêm phân sản phẩm</a>
         <table class="table table-bordered table-striped text-center">
             <thead>
                 <tr>
-                    <th>Product Name</th>
-                    <th>Product Price</th>
-                    <th>Product Description</th>
-                    <th>Options</th>
+                    <th>Tên Sản Phẩm</th>
+                    <th>Giá</th>
+                    <th>Hình Ảnh</th>
+                    <th>Tương Tác</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,11 +20,11 @@
                     <tr>
                         <td>@prod.products_name</td>
                         <td>@prod.products_price</td>
-                        <td><img src="@("~/product_image/"+prod.products_image)"asp-append-version="true" height="40px" width="40px"/>
+                                <td><img src="@prod.products_image" height="40px" width="40px"/></td>
                         <td>
-                            <a href="@Url.Action("productDetails","Admin",new{id=prod.products_id})" class="btn btn-info">Details</a>
-                            <a href="@Url.Action("updateProduct","Admin",new{id=prod.products_id})" class="btn btn-info">Update</a>
-                            <a href="@Url.Action("deletePermissionProduct","Admin",new{id=prod.products_id})" class="btn btn-danger">Delete</a>
+                            <a href="@Url.Action("productDetails","Admin",new{id=prod.products_id})" class="btn btn-info">Thông Tin</a>
+                            <a href="@Url.Action("updateProduct","Admin",new{id=prod.products_id})" class="btn btn-info">Chỉnh Sửa</a>
+                            <a href="@Url.Action("deletePermissionProduct","Admin",new{id=prod.products_id})" class="btn btn-danger">Xóa</a>
                         </td>
                     </tr>
                 }

@@ -10,6 +10,7 @@
     <link href="~/css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
+@await RenderSectionAsync("Scripts", required: false)
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
@@ -26,9 +27,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="@Url.Action("Profile","Admin")">Profile</a></li>
+                    <li><a class="dropdown-item" href="@Url.Action("Profile","Admin")">Hồ Sơ</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="@Url.Action("logout","admin")">Logout</a></li>
+                    <li><a class="dropdown-item" href="@Url.Action("logout","admin")">Đăng Xuất</a></li>
                 </ul>
             </li>
         </ul>
@@ -40,31 +41,35 @@
                     <div class="nav">
                         <a class="nav-link" href="@Url.Action("Index","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
-                            Home
+                            Trang Chủ
                         </a>
                         <a class="nav-link" href="@Url.Action("Profile","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                            Profile
+                            Hồ Sơ
                         </a>
                         <a class="nav-link" href="@Url.Action("fetchCustomer","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
-                            Customer
+                            Khách Hàng
                         </a>
                         <a class="nav-link" href="@Url.Action("fetchCategory","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
-                            Category
+                            Phân Loại
                         </a>
                         <a class="nav-link" href="@Url.Action("fetchProduct","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-shopping-basket"></i></div>
-                            Products
+                            Sản Phẩm
                         </a>
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="@Url.Action("fetchCart","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-shopping-cart"></i></div>
-                            Cart
+                            Giỏ Hàng
+                        </a>
+                        <a class="nav-link" href="@Url.Action("fetchOrder","Admin")">
+                            <div class="sb-nav-link-icon"><img src="~/website/images/resources/icon-9.png" alt=""></i></div>
+                            Đơn Hàng
                         </a>
                         <a class="nav-link" href="@Url.Action("fetchFeedback","Admin")">
                             <div class="sb-nav-link-icon"><i class="fas fa-money-check"></i></div>
-                            Feedback
+                            Phản Hồi
                         </a>
 
                     </div>
@@ -81,7 +86,7 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; 2023. Design & Developed By Syed Muhamamd Taha</div>
+                        <div class="text-muted"></div>
                     </div>
                 </div>
             </footer>

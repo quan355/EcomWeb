@@ -1,15 +1,15 @@
 ﻿@model List<Feedback>
 <div class="container-fluid px-4">
-    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">All Feedback</h2>
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Phản Hồi</h2>
 </div>
 <div class="row">
     <div class="col-md-12">
         <table class="table table-bordered table-striped text-center">
             <thead>
                 <tr>
-                    <th>User Name</th>
-                    <th>Message</th>
-                    <th>Options</th>
+                    <th>Họ Và Tên</th>
+                    <th>Tin Nhắn</th>
+                    <th>Tương Tác</th>
                 </tr>
             </thead>
             <tbody>
@@ -18,7 +18,7 @@
                    <tr>
                        <td>@feedback.user_name</td>
                         <td>@feedback.user_message</td>
-                        <td><a href="@Url.Action("deletePermissionFeedback","Admin",new{id=feedback.feedback_id})" class="btn btn-danger">Delete</a></td>
+                        <td><a href="@Url.Action("deletePermissionFeedback","Admin",new{id=feedback.feedback_id})" class="btn btn-danger">Xóa</a></td>
                    </tr>
                 }
             </tbody>

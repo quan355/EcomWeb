@@ -1,0 +1,179 @@
+﻿
+@{
+    ViewData["Title"] = "orderHistory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Order>
+<style>
+    .page-content {
+        padding: 20px;
+        background-color: #f5f5f5;
+    }
+
+    .order-history {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .order-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 20px;
+    }
+
+    .table-orders {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .table-orders th, .table-orders td {
+            padding: 10px;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+        }
+
+        .table-orders th {
+            font-weight: bold;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+
+        .table-orders td {
+            color: #4b5563;
+        }
+
+    .order-status {
+        font-weight: 500;
+    }
+
+    .status-0 {
+        color: #f5a623; /* Chờ xác nhận */
+    }
+    .order-size {
+        font-weight: 500;
+    }
+
+    .size {
+        color: #f5a623; 
+    }
+
+    .error-message {
+        color: #dc3545;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .no-orders {
+        color: #6b7280;
+        font-size: 16px;
+        text-align: center;
+        padding: 20px;
+    }
+@Model Or
+</style>
+<div class="border-top" style="opacity: .3;"></div>
+<div class="container">
+    <div class="breadcrumbs row align-items-center justify-content-between d-flex">
+        <div class="col-12">
+            <ul class="breadcrumbs_content list-unstyled d-flex justify-content-center">
+                <li class="home">
+                    <a title="Home" href="@Url.Action("index","customer")" itemprop="url">
+                        <span>Trang Chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-angle-right"></i> Đơn Hàng</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="page-content">
+    <div class="order-history">
+        <h2 class="order-title">Lịch Sử Đặt Hàng</h2>
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <p class="error-message">@TempData["ErrorMessage"]</p>
+        }
+        @if (Model.Count > 0)
+        {
+            <table class="table-orders">
+                <thead>
+                    <tr>
+                        <th>Ngày Đặt Hàng</th>
+                        <th>Sản Phẩm</th>
+                        <th>Kích Cỡ</th>
+                        <th>Số Lượng</th>
+                        <th>Tổng Tiền</th>
+                        <th>Trạng Thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.order_date.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td>@order.products.products_name</td>
+                            <td>
+                                <span class="order-size size-@order.product_size">
+                                    @switch (order.product_size)
+                                    {
+                                        case 0:
+                                            <span>S</span>
+                                            break;
+                                        case 1:
+                                            <span>M</span>
+                                            break;
+                                        case 2:
+                                            <span>L</span>
+                                            break;
+                                        case 3:
+                                            <span>XL</span>
+                                            break;
+                                        case 4:
+                                            <span>XXL</span>
+                                            break;
+                                    }
+                            </td>
+                            <td>@order.product_quantity</td>
+                            <td>@order.total_price.ToString("N0") VNĐ</td>
+                            <td>
+                                <span class="order-status status-@order.order_status">
+                                    @switch (order.order_status)
+                                    {
+                                        case 0:
+                                            <span>Chờ xác nhận</span>
+                                            break;
+                                        case 1:
+                                            <span>Đã xác nhận</span>
+                                            break;
+                                        case 2:
+                                            <span>Đang giao</span>
+                                            break;
+                                        case 3:
+                                            <span>Hoàn thành</span>
+                                            break;
+                                        case 4:
+                                            <span>Đã hủy</span>
+                                            break;
+                                        default:
+                                            <span>Không xác định</span>
+                                            break;
+                                    }
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="no-orders">Bạn chưa có đơn hàng nào.</p>
+        }
+    </div>
+</div>

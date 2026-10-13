@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kidet\\source\\repos\\EComWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\web\u002Bkt\\ecomweb\\views\\customer\\fetchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\customer\\fetchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\web\u002Bkt\\ecomweb\\views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\customer\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\web\u002Bkt\\ecomweb\\views\\customer\\allfetchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\customer\\allfetchproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\web\u002Bkt\\ecomweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\ecomweb\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|c:\\users\\kidet\\source\\repos\\web\u002Bkt\\ecomweb\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DDA3E19-D734-44B2-A8BD-1EA4C1EA6AAD}|EComWeb.csproj|solutionrelative:views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Title": "allfetchProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\allfetchProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\allfetchProduct.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\allfetchProduct.cshtml",
+              "RelativeToolTip": "Views\\Customer\\allfetchProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T03:37:14.756Z",
+              "WhenOpened": "2026-05-15T05:47:40.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "productDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\productDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\productDetails.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\productDetails.cshtml",
+              "RelativeToolTip": "Views\\Customer\\productDetails.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T12:13:56.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fetchProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\fetchProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\fetchProduct.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Customer\\fetchProduct.cshtml",
+              "RelativeToolTip": "Views\\Customer\\fetchProduct.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T12:11:19.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Views\\Shared\\_Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T03:34:55.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDIAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAAwAABAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T03:23:17.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T02:01:11.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\kidet\\source\\repos\\EComWeb\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwE0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:45:47.917Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "addProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Admin\\addProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\addProduct.cshtml",
+              "ToolTip": "C:\\Users\\kidet\\source\\repos\\Web\u002BKt\\EComWeb\\Views\\Admin\\addProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\addProduct.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T01:59:29.155Z"
             }
           ]
         },

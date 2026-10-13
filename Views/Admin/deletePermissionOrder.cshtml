@@ -1,0 +1,21 @@
+﻿@model Order
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Bạn có đồng ý xóa !!!</h2>
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <ul class="list-group my-3">
+            <li class="list-group-item">Id Đơn Hàng : @Model.order_id</li>
+            <li class="list-group-item">Id Sản Phẩm : @Model.product_id</li>
+            <li class="list-group-item">Id Khách Hàng : @Model.cust_id</li>
+            <li class="list-group-item">Số Lượng Sản Phẩm : @Model.product_quantity</li>
+            <li class="list-group-item">Tổng Tiền : @Model.total_price</li>
+            <li class="list-group-item">Ngày Đặt : @Model.order_date</li>
+            <li class="list-group-item">Trạng Thái : @Model.order_status</li>
+        </ul>
+        <a href="@Url.Action("deleteOrder","Admin",new{id=Model.order_id})" class="btn btn-danger">XÓA</a>
+        <a href="@Url.Action("fetchOrder","Admin")" class="btn btn-info">Quay Lại</a>
+    </div>
+    <div class="col-md-2"></div>
+</div>

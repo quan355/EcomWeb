@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EComWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+688eaa26910e67b117b052fe5c29e639edaf1dc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("EComWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EComWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

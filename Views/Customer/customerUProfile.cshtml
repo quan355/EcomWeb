@@ -1,31 +1,40 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "customerUProfile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model List<Customer>
 <style>
-    .center {
+    .file-input-container {
+        position: relative;
+        margin-top: 0.5rem;
         display: flex;
         justify-content: center;
     }
+
+        .file-input-container input[type="file"] {
+            display: none;
+        }
+
     .avatar-container {
         display: flex;
         justify-content: center;
-       
     }
+
     .avatar {
         height: 128px;
         width: 128px;
         border-radius: 50%;
         border: 4px solid #ffffff;
         object-fit: cover;
+        cursor: pointer;
     }
+
     .container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 24px;
     }
+
     .profile-card {
         background-color: #ffffff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -33,9 +42,9 @@
         overflow: hidden;
         max-width: 1000px;
         margin: 0 auto;
-        border-top: 6px solid ;
-        
+        border-top: 6px solid;
     }
+
     .profile-info {
         text-align: center;
         padding: 24px;
@@ -47,6 +56,7 @@
             color: #1f2937;
             margin: 0;
         }
+
     .section {
         padding: 24px;
         border-top: 8px;
@@ -59,11 +69,6 @@
             margin-bottom: 16px;
         }
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 24px;
-    }
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -81,6 +86,7 @@
                 font-weight: 500;
                 padding: 24px;
             }
+
     .actions {
         text-align: center;
         padding: 24px;
@@ -101,34 +107,85 @@
             background-color: #16a34a;
             color: #ffffff;
             border-radius: 8px;
+            border: none;
+            padding: 8px 24px;
+            cursor: pointer;
         }
 
             .actions .edit-profile:hover {
                 background-color: #15803d;
             }
+    /* CSS cho thông báo */
+    .success-notification {
+        display: none;
+        background-color: #ffffff;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 350px;
+        margin: 1rem auto;
+    }
+
+        .success-notification.active {
+            display: block;
+        }
+
+    .success-icon {
+        width: 48px;
+        height: 48px;
+        color: #28a745;
+        margin: 0 auto 1rem;
+    }
+
+    .success-notification h1 {
+        font-size: 1.25rem;
+        color: #333333;
+        margin-bottom: 0.5rem;
+    }
+
+    .success-notification p {
+        color: #666666;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .success-notification .theme-btn.bg-color5 {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+        .success-notification .theme-btn.bg-color5 a {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
 </style>
 <body>
     <div class="container">
-                <div class="section">
-                    <div class="grid">
+        <div class="section">
+            <div class="grid">
                 <div class="profile-card">
                     <section>
-                        <form method="post" enctype="multipart/form-data" asp-action="updateCustomerProfile">
+                        <form method="post" enctype="multipart/form-data" asp-action="updateCustomerProfile" id="profileForm">
                             <div class="avatar-container">
-                                <img src="@Url.Content("~/customer_image/" + Model[0].customer_image)" asp-append-version="true" class="avatar"/> 
+                                <img src="@Url.Content("~/customer_image/" + Model[0].customer_image)" asp-append-version="true" class="avatar" id="avatar-img" onclick="document.getElementById('customer_image').click();" />
                             </div>
-                            <input type="file" name="customer_image" class="center"/>
+                            <div class="file-input-container">
+                                <input type="file" name="customer_image" id="customer_image" accept="image/*">
+                            </div>
                             <div class="profile-info">
-                                <h1>Account Details</h1>
+                                <h1>Thông Tin Tài Khoản</h1>
                             </div>
-                            
                             <p>
                                 <input type="hidden" name="customer_id" value="@Model[0].customer_id" />
                                 <input type="text" placeholder="Nhập tên" name="customer_name" value="@Model[0].customer_name" />
                             </p>
                             <p>
                                 <input type="text" placeholder="Địa chỉ" name="customer_address" value="@Model[0].customer_address" />
-                                <input type="text" placeholder="Nhập MK" name="customer_password" value="@Model[0].customer_password" /><br />
+                                <input type="hidden" placeholder="Nhập MK" name="customer_password" value="@Model[0].customer_password" /><br />
                             </p>
                             <p>
                                 <input type="text" placeholder="Nhập số điện thoại" name="customer_phone" value="@Model[0].customer_phone" />
@@ -144,10 +201,47 @@
                         </form>
                     </section>
                 </div>
-                        
-                    </div>
+                <!-- Thông báo thành công -->
+                <div class="success-notification" id="successNotification">
+                    <svg class="success-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <h1>Cập nhật thành công!</h1>
+                    <p>Hồ sơ của bạn đã được cập nhật trong hệ thống.</p>
+                    <button class="theme-btn bg-color5" type="button">
+                        <a href="@Url.Action("customerUProfile","customer")">Quay lại</a>
+                    </button>
                 </div>
+            </div>
+        </div>
     </div>
 </body>
+<script>
+    // Xử lý preview ảnh khi chọn file
+    document.getElementById('customer_image').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('avatar-img').src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+    });
 
-
+    // Hiển thị thông báo nếu TempData["Success"] tồn tại
+    @if (TempData["Success"] != null)
+    {
+        <text>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.getElementById('successNotification').classList.add('active');
+                    document.getElementById('profileForm').style.display = 'none';
+                    // Tự động ẩn thông báo sau 3 giây và hiện lại form
+                    setTimeout(() => {
+                        document.getElementById('successNotification').classList.remove('active');
+                        document.getElementById('profileForm').style.display = 'block';
+                    }, 3000);
+                });
+        </text>
+    }
+</script>

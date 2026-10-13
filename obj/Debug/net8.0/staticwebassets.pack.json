@@ -1,683 +1,835 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EComWeb.bundle.scp.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EComWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\EComWeb.iqe01gc80q.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\admin_image\\face.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\anhchup.jpg",
+      "PackagePath": "staticwebassets\\admin_image\\anhchup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\backg.png",
+      "PackagePath": "staticwebassets\\admin_image\\backg.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\download.jpg",
+      "PackagePath": "staticwebassets\\admin_image\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\face.png",
       "PackagePath": "staticwebassets\\admin_image\\face.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\admin_image\\Ảnh chụp màn hình 2025-04-08 195941.png",
-      "PackagePath": "staticwebassets\\admin_image\\Ảnh chụp màn hình 2025-04-08 195941.png"
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\icon-8.png",
+      "PackagePath": "staticwebassets\\admin_image\\icon-8.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\size.jpg",
+      "PackagePath": "staticwebassets\\admin_image\\size.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\admin_image\\slide_1_img.webp",
+      "PackagePath": "staticwebassets\\admin_image\\slide_1_img.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\customer_image\\85a620324aad9684cf22aaa87d898be2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\04f94651-f181-4153-8283-4eed981965e9_z5699125487453_4515a6f11f2674d80813d9629e0676ad.jpg",
+      "PackagePath": "staticwebassets\\customer_image\\04f94651-f181-4153-8283-4eed981965e9_z5699125487453_4515a6f11f2674d80813d9629e0676ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\85a620324aad9684cf22aaa87d898be2.jpg",
       "PackagePath": "staticwebassets\\customer_image\\85a620324aad9684cf22aaa87d898be2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\customer_image\\icon.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\88fcd6bc-1451-42b1-97f5-0c1ee6d6ae9a_download.jpg",
+      "PackagePath": "staticwebassets\\customer_image\\88fcd6bc-1451-42b1-97f5-0c1ee6d6ae9a_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\9c7152ca-0de9-4206-8551-c3b7a731ce13_download.jpg",
+      "PackagePath": "staticwebassets\\customer_image\\9c7152ca-0de9-4206-8551-c3b7a731ce13_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\afb164ab-889d-4333-a3c8-e0691968adac_36e41e9fe4964c81b23c212d401e767f_master.webp",
+      "PackagePath": "staticwebassets\\customer_image\\afb164ab-889d-4333-a3c8-e0691968adac_36e41e9fe4964c81b23c212d401e767f_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\aothun04.webp",
+      "PackagePath": "staticwebassets\\customer_image\\aothun04.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\download.jpg",
+      "PackagePath": "staticwebassets\\customer_image\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\fdc948db-1b85-4c37-a445-ff181408d57b_z5699125487453_4515a6f11f2674d80813d9629e0676ad.jpg",
+      "PackagePath": "staticwebassets\\customer_image\\fdc948db-1b85-4c37-a445-ff181408d57b_z5699125487453_4515a6f11f2674d80813d9629e0676ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\icon.png",
       "PackagePath": "staticwebassets\\customer_image\\icon.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\customer_image\\qr.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\customer_image\\qr.jpg",
       "PackagePath": "staticwebassets\\customer_image\\qr.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\js\\datatables-simple-demo.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\js\\datatables-simple-demo.js",
       "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\js\\scripts.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\product_image\\85a620324aad9684cf22aaa87d898be2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\173ea521-123e-4b6d-becf-47bc6be977f4_bee82afb182b463689b19f49b68ab609_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\173ea521-123e-4b6d-becf-47bc6be977f4_bee82afb182b463689b19f49b68ab609_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\1_257a3776f6a54b32a5d2612e41582b64_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\1_257a3776f6a54b32a5d2612e41582b64_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\47f06833-d647-42a7-a354-f43b10f7e684_80df1a6a0d944bd08335670341d1aa59_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\47f06833-d647-42a7-a354-f43b10f7e684_80df1a6a0d944bd08335670341d1aa59_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\5665f87fa443e3dbfe5b6de0f630f3c9.jpg",
+      "PackagePath": "staticwebassets\\product_image\\5665f87fa443e3dbfe5b6de0f630f3c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\85a620324aad9684cf22aaa87d898be2.jpg",
       "PackagePath": "staticwebassets\\product_image\\85a620324aad9684cf22aaa87d898be2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\product_image\\aothun01.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\OIP (1).jpg",
+      "PackagePath": "staticwebassets\\product_image\\OIP (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\OIP (2).jpg",
+      "PackagePath": "staticwebassets\\product_image\\OIP (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\Sweater03.jpg",
+      "PackagePath": "staticwebassets\\product_image\\Sweater03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\aothun01.jpg",
       "PackagePath": "staticwebassets\\product_image\\aothun01.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\product_image\\aothun02.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\aothun02.jpg",
       "PackagePath": "staticwebassets\\product_image\\aothun02.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\product_image\\aothun03.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\aothun03.jpg",
       "PackagePath": "staticwebassets\\product_image\\aothun03.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\css\\all.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\aothun04.webp",
+      "PackagePath": "staticwebassets\\product_image\\aothun04.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\avt_web_1150_x_1475_px__4173548a343d4291a95efb537d93de4c_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\avt_web_1150_x_1475_px__4173548a343d4291a95efb537d93de4c_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\avt_web_1150_x_1475_px__bb65011609c5406596d5e243fb778a0c_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\avt_web_1150_x_1475_px__bb65011609c5406596d5e243fb778a0c_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\d0bd7e0d-fc45-4465-a712-863b592f1dc3_dcebd3fba6844780b8587f86b6af2885_master.jpg",
+      "PackagePath": "staticwebassets\\product_image\\d0bd7e0d-fc45-4465-a712-863b592f1dc3_dcebd3fba6844780b8587f86b6af2885_master.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\eabt016_aa65a1bfa70241f0978d163d992120a2_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\eabt016_aa65a1bfa70241f0978d163d992120a2_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\fsts004_e94e03cd562a4c9c8c742b96daabb1a0_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\fsts004_e94e03cd562a4c9c8c742b96daabb1a0_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\fsts012_eefcc04d88cb49778951718df6c1a1b5_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\fsts012_eefcc04d88cb49778951718df6c1a1b5_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\keysweaterliggebillede6_36cdf13b-d184-470c-a98a-1a505dfe11ba_grande.jpg",
+      "PackagePath": "staticwebassets\\product_image\\keysweaterliggebillede6_36cdf13b-d184-470c-a98a-1a505dfe11ba_grande.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\sweater04.jpg",
+      "PackagePath": "staticwebassets\\product_image\\sweater04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\thiet_ke_chua_co_ten__4__52ba7c157d634d8caec3918bb8204925_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\thiet_ke_chua_co_ten__4__52ba7c157d634d8caec3918bb8204925_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\thiet_ke_chua_co_ten__4__5e90cec1357b4fc299c595896085847c_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\thiet_ke_chua_co_ten__4__5e90cec1357b4fc299c595896085847c_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\thiet_ke_chua_co_ten__4__9a41acc58be5438eb4a6a1673244c8bb_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\thiet_ke_chua_co_ten__4__9a41acc58be5438eb4a6a1673244c8bb_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\tp038-1_8146407dbd10447aa1c5c8c56a715a7a_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\tp038-1_8146407dbd10447aa1c5c8c56a715a7a_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\ts027_54401867149_o_df799e469794435dab8252d78ffd1b16_master.webp",
+      "PackagePath": "staticwebassets\\product_image\\ts027_54401867149_o_df799e469794435dab8252d78ffd1b16_master.webp"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\product_image\\vn-11134207-7qukw-lgj4shutg4tm27.jpg",
+      "PackagePath": "staticwebassets\\product_image\\vn-11134207-7qukw-lgj4shutg4tm27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\css\\all.min.css",
       "PackagePath": "staticwebassets\\website\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\website\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\css\\responsive.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\css\\responsive.css",
       "PackagePath": "staticwebassets\\website\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\css\\style.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\css\\style.css",
       "PackagePath": "staticwebassets\\website\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\css\\uicons-regular-rounded.css",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\css\\uicons-regular-rounded.css",
       "PackagePath": "staticwebassets\\website\\css\\uicons-regular-rounded.css"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\logo-2.webp",
-      "PackagePath": "staticwebassets\\website\\images\\logo-2.webp"
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\logo.png",
+      "PackagePath": "staticwebassets\\website\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\logo.webp",
-      "PackagePath": "staticwebassets\\website\\images\\logo.webp"
-    },
-    {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\Thumbs.db",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\Thumbs.db",
       "PackagePath": "staticwebassets\\website\\images\\resources\\Thumbs.db"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\abt-1.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\abt-1.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\abt-1.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\abt-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\abt-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\abt-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\bg-2.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\bg-2.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\bg-2.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\bg-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\bg-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\bg-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\bg.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\bg.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\bg.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\big-img-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\big-img-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\big-img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\big-img.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\big-img.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\big-img.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-1.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-1.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-1-1.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-2.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-2.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-1-2.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-3.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-3.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-1-3.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-4.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-4.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-1-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-5.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-1-5.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-1-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-2-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-2-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\block-2-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\block-2-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-1.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-1.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-1.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-2.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-2.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-2.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-3.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-3.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-3.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-4.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-4.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-4.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-5.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-5.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-5.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-6.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-6.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-6.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-7.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-7.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-7.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\brand-8.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\brand-8.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\brand-8.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\i-con3.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\default-product.png",
+      "PackagePath": "staticwebassets\\website\\images\\resources\\default-product.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\i-con3.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\i-con3.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\icon-1.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-1.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\icon-1.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\icon-2.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-2.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\icon-2.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\icon-3.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-3.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\icon-3.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\icon-4.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-4.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\icon-4.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-5.png",
+      "PackagePath": "staticwebassets\\website\\images\\resources\\icon-5.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-6.png",
+      "PackagePath": "staticwebassets\\website\\images\\resources\\icon-6.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-7.png",
+      "PackagePath": "staticwebassets\\website\\images\\resources\\icon-7.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\icon-9.png",
+      "PackagePath": "staticwebassets\\website\\images\\resources\\icon-9.png"
+    },
+    {
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-4.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-4.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-5.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-5.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-6.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-6.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-7.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-7.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-7.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-8.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\mbr-8.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\mbr-8.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\pay.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\pay.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\pay.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-1.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-1.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-1.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-2.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-2.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-2.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-3.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-3.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-3.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-4.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-4.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-4.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-5.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-5.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-5.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-6.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-6.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-6.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-7.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-7.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-7.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-8.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-8.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-8.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\post-9.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\post-9.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\post-9.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-10.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-10.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-10.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-11.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-11.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-11.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-12.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-12.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-12.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-13.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-13.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-13.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-14.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-14.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-14.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-15.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-15.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-15.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-16.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-16.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-16.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-17.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-17.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-17.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-18.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-18.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-18.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-19.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-19.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-19.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-20.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-20.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-20.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-4.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-4.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-5.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-5.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-6.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-6.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-7.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-7.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-7.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-8.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-8.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-8.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\prd-9.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\prd-9.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\prd-9.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-4.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-4.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-5.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-5.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-6.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\s-prd-6.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\s-prd-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\safe.png",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\safe.png",
       "PackagePath": "staticwebassets\\website\\images\\resources\\safe.png"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\search-outline.svg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\search-outline.svg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\search-outline.svg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\shoes.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\shoes.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\shoes.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-1.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-1.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\side-pd-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-2.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-2.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\side-pd-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-3.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-3.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\side-pd-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-4.jpg",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\side-pd-4.jpg",
       "PackagePath": "staticwebassets\\website\\images\\resources\\side-pd-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\slide-1.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\slide-1.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\slide-1.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\images\\resources\\slide-2.webp",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\images\\resources\\slide-2.webp",
       "PackagePath": "staticwebassets\\website\\images\\resources\\slide-2.webp"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\website\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility-2.html",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility-2.html",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-v4compatibility-2.html"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility.html",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility.html",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-v4compatibility.html"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\website\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.eot",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.eot",
       "PackagePath": "staticwebassets\\website\\webfonts\\uicons-regular-rounded.eot"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.woff",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.woff",
       "PackagePath": "staticwebassets\\website\\webfonts\\uicons-regular-rounded.woff"
     },
     {
-      "Id": "C:\\Users\\kidet\\source\\repos\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.woff2",
+      "Id": "C:\\Users\\kidet\\source\\repos\\Web+Kt\\EComWeb\\wwwroot\\website\\webfonts\\uicons-regular-rounded.woff2",
       "PackagePath": "staticwebassets\\website\\webfonts\\uicons-regular-rounded.woff2"
     },
     {

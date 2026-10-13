@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EComWeb.Migrations
 {
-    [DbContext(typeof(myContext))]
+    [DbContext(typeof(MyContext))]
     [Migration("20250401151703_customerMigration")]
     partial class customerMigration
     {

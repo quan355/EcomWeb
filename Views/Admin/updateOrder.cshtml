@@ -1,0 +1,30 @@
+﻿@model Order
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Cập Nhật Đơn Hàng</h2>
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <p class="text-danger">@TempData["ErrorMessage"]</p>
+        }
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <p class="text-success">@TempData["SuccessMessage"]</p>
+        }
+        <form method="post" asp-action="updateOrder">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="order_id" value="@Model.order_id" />
+            <select asp-for="order_status" class="form-select mt-3">
+                <option value="0">Chờ xác nhận</option>
+                <option value="1">Đã xác nhận</option>
+                <option value="2">Đang giao</option>
+                <option value="3">Hoàn thành</option>
+                <option value="4">Đã hủy</option>
+            </select>
+            <input type="submit" value="Xác Nhận" class="form-control my-3 btn btn-primary" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
